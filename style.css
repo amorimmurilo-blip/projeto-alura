@@ -1,9 +1,9 @@
+body {}
 
         header {
             background-color: #7D34EA;
             text-align: center;
             color: #DAC930;
-            max-width: 800px;
             margin: 0 auto;
             padding: 15px;
             border: 5px solid #7D34EA;
@@ -12,7 +12,6 @@
         main {
             background-color: #DAC930;
             color: #7D34EA;
-            max-width: 800px;
             margin: 0 auto;
             padding: 15px;
                        
