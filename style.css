@@ -1,10 +1,36 @@
 :root {
     --cor-primaria: #7D34EA;
     --cor-secundaria: #DAC930;
-    --cor-fundo: #ffffff;
-    --cor-texto: #151428;
-    --cor-contraste: #f3eef7;
-    --cor-botao: #f9f9f9;
+    --cor-fundo: #DAC930;
+    --cor-texto: #7D34EA;
+    --cor-contraste: #4c64d1;
+    --cor-botao: #DAC930;
+
+    --fonte-texto: ;
+}
+
+.tema-escuro {
+    --cor-primaria:#FF91A4;
+    --cor-secundaria: #06402B;
+    --cor-fundo: #06402B;
+    --cor-texto: #FF91A4;
+    --cor-contraste: #000080;
+    --cor-botao: #06402B;
+
+}
+
+.tema-escuro a {
+    color: var(--cor-secundaria);
+
+}
+
+.tema-escuro p {
+
+    color: var(--cor-texto)
+}
+
+.tema-escuro header p {
+    color: var(--cor-contraste)
 }
 
 body {
@@ -37,7 +63,7 @@ article {
     align-items: center;
     text-align: center;
     justify-content: center;
-    border: 1px solid #183C63;
+    border: 1px solid #DAC930;
     margin: 16px;
     gap: 16px;
     padding: 16px;
