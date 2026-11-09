@@ -14,4 +14,6 @@ botoes.forEach(function (botao) {
             curtiu = false;
         }
     }
-});
+})
+
+const btnTemaEscuro = ocument.querySelector("btn-tema-escuro");
