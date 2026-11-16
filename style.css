@@ -37,7 +37,7 @@
     color: var(--cor-contraste)
 }
 
-.tema-escuro . .btn-tema-escuro {
+.tema-escuro .btn-tema-escuro {
     background-color: var(--cor-secundaria);
 }
 
@@ -74,7 +74,7 @@ article {
     text-align: center;
     justify-content: center;
 
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3)
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
     margin: 16px;
     gap: 16px;
 
