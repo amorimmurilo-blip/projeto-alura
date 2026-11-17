@@ -17,11 +17,15 @@ botoes.forEach(function (botao) {
 })
 
 const btnTemaEscuro;
+
 const btnTemaEscuro = document.querySelector(".btn-tema-escuro");
 btnTemaEscuro.addEventListener("Click", mudaTema);
  function mudaTema() {
+
     const corpoPagina = document.body;
+
     if (corpoPagina.classList.contains("tema-escuro")) {
+        
         corpoPagina.classList.remove("tema-escuro");
     } else {
         corpoPagina.classList.add("tema-escuro");
