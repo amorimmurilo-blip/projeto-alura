@@ -1,13 +1,15 @@
+
 :root {
     --cor-primaria: #7D34EA;
     --cor-secundaria: #DAC930;
     --cor-fundo: #DAC930;
-    --cor-texto: #7D34EA;
-    --cor-contraste: #4c64d1;
+    --cor-texto: #DAC930;
+    --cor-contraste: #1e61c7;
     --cor-botao: #7D34EA;
 
-    --fonte-texto: 'Segoe UI', Verdana ;
+    --fonte-texto:Verdana;
 }
+
 
 *{
     transition: background-color 0.5s ease;
@@ -22,6 +24,16 @@
     --cor-botao: #06402B;
 
 }
+
+.tema-escuro {
+    --cor-primaria: #FF91A4;
+    --cor-secundaria: #06402B;
+    --cor-fundo: #06402B;
+    --cor-texto: #FF91A4;
+    --cor-contraste: #000080;
+    --cor-botao: #06402B;
+}
+
 
 .tema-escuro a {
     color: var(--cor-secundaria);
